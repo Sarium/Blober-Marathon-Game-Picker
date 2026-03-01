@@ -6,14 +6,39 @@ var fangameIndex = 24;
 const gameNames = [
 	"Celeste",
 	"Hollow Knight",
-	"Garbanzo Quest"
+	"Garbanzo Quest",
+	"Katana Zero",
+	"Peaks of Yore",
+	"Ultrakill",
+	"Yooka Laylee and the Impossible Lair",
+	"Titan Souls",
+	"A Story About My Uncle",
+	"Guacamelee",
+	"Black Mesa",
+	"Half Life 2",
+	"Death's Gambit",
+	"Untitled Goose Game",
+	"The Messenger"
 	
 ];
 
 const gameLogos = [
 	"game-thumbnails/Celeste.png",
 	"game-thumbnails/Hollow Knight.png",
-	"game-thumbnails/Garbanzo Quest.png"
+	"game-thumbnails/Garbanzo Quest.png",
+	"game-thumbnails/Katana Zero.png",
+	"game-thumbnails/Peaks of Yore.png",
+	"game-thumbnails/Ultrakill.png",
+	"game-thumbnails/Yooka Laylee.png",
+	"game-thumbnails/Titan Souls.png",
+	"game-thumbnails/A Story About My Uncle.png",
+	"game-thumbnails/Guacamelee.png",
+	"game-thumbnails/Black Mesa.png",
+	"game-thumbnails/Half Life 2.png",
+	"game-thumbnails/Deaths Gambit.png",
+	"game-thumbnails/Untitled Goose Game.png",
+	"game-thumbnails/The Messenger.png"
+	
 ];
 
 const presetNames = [
@@ -24,10 +49,10 @@ const presetNames = [
 ];
 
 const presets = [
-	[0, 1, 2],
+	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
 	[],
-	[0, 1],
-	[2]
+	[],
+	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 ];
 
 var gameInPool = Array(gameNames.length).fill(false);
