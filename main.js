@@ -4,105 +4,30 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 var fangameIndex = 24;
 
 const gameNames = [
-	"FNAF 1",
-	"FNAF 2",
-	"FNAF 3 (Troll)",
-	"FNAF 3",
-	"FNAF 4",
-	"FNAF World (Troll)",
-	"FNAF World",
-	"FNAF World DLC",
-	"Sister Location (Troll)",
-	"Sister Location",
-	"Sister Location Custom Night",
-	"Freddy Fazbear's Pizzeria Simulator",
-	"Ultimate Custom Night (Troll)",
-	"Ultimate Custom Night",
-	"Help Wanted",
-	"Help Wanted: Curse of Dreadbear",
-	"Freddy in Space 2",
-	"Security Breach: Fury's Rage",
-	"Security Breach",
-	"Security Breach: Ruin",
-	"Freddy in Space 3",
-	"Help Wanted 2",
-	"Into The Pit",
-	"Five Laps at Freddy's",
-
-	"JR's",
-	"The Glitched Attraction",
-	"The Joy of Creation",
-	"A Bite at Freddy's",
-	"Five Nights at Chica's Party World",
-	"One Night at Flumpty's",
-	"Playtime with Percy",
-	"Five Nights at Candy's Remastered",
-	"SCP: The Endurance",
-	"Oblitus Casa",
-	"Tealerland",
-	"Five Nights At Wario's 3"
+	"Celeste",
+	"Hollow Knight",
+	"Garbanzo Quest"
+	
 ];
 
 const gameLogos = [
-	"game-thumbnails/001-fnaf-1.png",
-	"game-thumbnails/002-fnaf-2.png",
-	"game-thumbnails/003-fnaf-3-troll.png",
-	"game-thumbnails/004-fnaf-3.png",
-	"game-thumbnails/005-fnaf-4.png",
-	"game-thumbnails/006-fnaf-world-troll.png",
-	"game-thumbnails/007-fnaf-world.png",
-	"game-thumbnails/008-fnaf-world-dlc.png",
-	"game-thumbnails/009-sister-location-troll.png",
-	"game-thumbnails/010-sister-location.png",
-	"game-thumbnails/011-sister-location-custom-night.png",
-	"game-thumbnails/012-pizza-sim.png",
-	"game-thumbnails/013-ucn-troll.png",
-	"game-thumbnails/014-ucn.png",
-	"game-thumbnails/015-help-wanted.png",
-	"game-thumbnails/016-dreadbear.png",
-	"game-thumbnails/017-freddy-in-space-2.png",
-	"game-thumbnails/018-furys-rage.png",
-	"game-thumbnails/019-security-breach.png",
-	"game-thumbnails/020-ruin.png",
-	"game-thumbnails/021-freddy-in-space-3.png",
-	"game-thumbnails/022-help-wanted-2.png",
-	"game-thumbnails/023-into-the-pit.png",
-	"game-thumbnails/024-five-laps-at-freddys.png",
-
-	"game-thumbnails/025-jrs.png",
-	"game-thumbnails/026-the-glitched-attraction.png",
-	"game-thumbnails/027-the-joy-of-creation.webp",
-	"game-thumbnails/028-a-bite-at-freddys.png",
-	"game-thumbnails/029-chicas-party-world.webp",
-	"game-thumbnails/030-one-night-at-flumptys.webp",
-	"game-thumbnails/031-playtime-with-percy.webp",
-	"game-thumbnails/032-five-nights-at-candys-remastered.png",
-	"game-thumbnails/033-scp-endurance.png",
-	"game-thumbnails/034-oblitus-casa.png",
-	"game-thumbnails/035-tealerland.png",
-	"game-thumbnails/036-five-nights-at-warios-3.png",
+	"game-thumbnails/Celeste.png",
+	"game-thumbnails/Hollow Knight.png",
+	"game-thumbnails/Garbanzo Quest.png"
 ];
 
 const presetNames = [
 	"All",
 	"None",
-	"Marathon 1 + 2",
-	"Marathon 3",
-	"Marathon 4",
-	"Marathon 5",
-	"Fangame Marathon 1"
+	"Jogados",
+	"Não Jogados"
 ];
 
 const presets = [
-	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+	[0, 1, 2],
 	[],
-
-	[0, 1, 3, 4, 6, 9, 11, 13, 14, 18],
-	[0, 1, 3, 4, 6, 9, 11, 13, 14, 16, 17, 18],
-	[0, 1, 3, 4, 6, 7, 9, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
-
-	[24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+	[0, 1],
+	[2]
 ];
 
 var gameInPool = Array(gameNames.length).fill(false);
