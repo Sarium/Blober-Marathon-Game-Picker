@@ -18,7 +18,11 @@ const gameNames = [
 	"Half Life 2",
 	"Death's Gambit",
 	"Untitled Goose Game",
-	"The Messenger"
+	"The Messenger",
+	"Need for Speed: Hot Pursuit",
+	"Bioshock 2",
+	"Titanfall 2",
+	"Sniper Elite 4"
 	
 ];
 
@@ -37,7 +41,11 @@ const gameLogos = [
 	"game-thumbnails/Half Life 2.png",
 	"game-thumbnails/Deaths Gambit.png",
 	"game-thumbnails/Untitled Goose Game.png",
-	"game-thumbnails/The Messenger.png"
+	"game-thumbnails/The Messenger.png",
+	"game-thumbnails/Need for Speed HP.png",
+	"game-thumbnails/Bioshock 2.png",
+	"game-thumbnails/Titanfall 2.png",
+	"game-thumbnails/Sniper Elite 4.png"
 	
 ];
 
