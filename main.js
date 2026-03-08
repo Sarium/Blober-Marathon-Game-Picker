@@ -22,7 +22,8 @@ const gameNames = [
 	"Need for Speed: Hot Pursuit",
 	"Bioshock 2",
 	"Titanfall 2",
-	"Sniper Elite 4"
+	"Sniper Elite 4",
+	"Dusk"
 	
 ];
 
@@ -45,7 +46,8 @@ const gameLogos = [
 	"game-thumbnails/Need for Speed HP.png",
 	"game-thumbnails/Bioshock 2.png",
 	"game-thumbnails/Titanfall 2.png",
-	"game-thumbnails/Sniper Elite 4.png"
+	"game-thumbnails/Sniper Elite 4.png",
+	"game-thumbnails/Dusk.png"
 	
 ];
 
